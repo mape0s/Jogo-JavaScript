@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Home jogo</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div id = topo>
-            <img src="memory_icon.png" alt="logo" style="width: 100px;">
-            <h1 class="titulo"style="font-size: 50px;">MEMORY GAME</h1>
-        </div>
-    </body>
-    <div id = menu>
-        <img class = "icons" src="carro.png" alt="carro" style="width: 300px;">
-        <img class = "icons" src="moto.png" alt="moto" style="width: 300px;">
-        <img class = "icons" src="jetski.png" alt="jetski" style="width: 300px;">
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="topo">
+        <img src="memory_icon.png" class="logo">
+        <h1 class="titulo">MEMORY GAME</h1>
     </div>
+
+    <div id="menu-home">
+
+        <a href="jogo.html?tema=carro" class="icons">
+            <img src="carro.png">
+            <span class="tema-nome">CARRO</span>
+        </a>
+
+        <a href="jogo.html?tema=moto" class="icons">
+            <img src="moto.png">
+            <span class="tema-nome">MOTO</span>
+        </a>
+
+        <a href="jogo.html?tema=jetski" class="icons">
+            <img src="jetski.png">
+            <span class="tema-nome">JETSKI</span>
+        </a>
+
+    </div>
+       <div id="rodape">
+        Desenvolvimento por Maurício 
+       </div>
+
+</body>
 </html>
